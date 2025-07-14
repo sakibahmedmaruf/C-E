@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের কোর্সসমূহ</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; }
+    header, footer {
+      background-color: rgb(219, 201, 198);
+      color: rgb(233, 8, 8);
+      text-align: center;
+      padding: 15px;
+    }
+    main {
+        background-color: tomato;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .courses {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .course {
+      background: tomato;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 10px;
+      padding: 20px;
+      width: 300px;
+    }
+     nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: rgb(219, 201, 198);
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+
+    @media (max-width: 768px) {
+      .course {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+ <main>
+    <h1>ক্রিয়েটিভ এডুকেশন</h1>
+    <p>শিক্ষা, সেবা ও উন্নয়নের প্রতীক</p>
+ </main>
+    <nav>
+  <a href="index.html">হোম</a>
+  <a href="courses.html">কোর্স</a>
+  <a href="admission.html">ভর্তি</a>
+  <a href="teachers.html">শিক্ষকগণ</a>
+  </nav>
+
+<header>
+  <h1>আমাদের কোর্সসমূহ</h1>
+</header>
+<section class="courses">
+  <div class="course">
+    <h2>এইচএসসি বিজ্ঞান</h2>
+  </div>
+  <div class="course">
+    <h2>এইচএসসি মানবিক</h2>
+  </div>
+   <div class="course">
+    <h2>এইচএসসি ব্যাবসায় শিক্ষা</h2>
+  </div>
+   <div class="course">
+    <h2>এসএসসি বিজ্ঞান, মানবিক</h2>
+  </div>
+  <div class="course">
+    <h2>স্পোকেন ইংলিশ, IELTS</h2>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; ২০২৫ ক্রিয়েটিভ এডুকেশন</p>
+</footer>
+
+</body>
+</html>

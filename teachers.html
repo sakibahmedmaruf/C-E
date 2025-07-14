@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>আমাদের শিক্ষকগণ</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 0; }
+    header, footer {
+      background: #f1f1f1;
+      color: rgb(180, 10, 10);
+      text-align: center;
+      padding: 20px;
+    }
+    main {
+        background-color: tomato;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+     nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #f1f1f1;
+      padding: 10px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .teachers {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+      padding: 20px;
+      place-items: center;
+      margin-top: 40px;
+    }
+    .teacher {
+      background: rgb(116, 32, 18);
+      color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      width: 250px;
+      height: 150px;
+      margin: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+      
+    @media (max-width: 768px) {
+      .teacher {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+    <h1>ক্রিয়েটিভ এডুকেশন</h1>
+    <p>শিক্ষা, সেবা ও উন্নয়নের প্রতীক</p>
+ </main>
+  <nav>
+  <a href="index.html">হোম</a>
+  <a href="courses.html">কোর্স</a>
+  <a href="admission.html">ভর্তি</a>
+  <a href="teachers.html">শিক্ষকগণ</a>
+  </nav>
+<header>
+  <h1>আমাদের সম্মানিত শিক্ষকবৃন্দ</h1>
+</header>
+<section class="teachers">
+  <div class="teacher">
+    <h3>জনাব মুহিত আই মেরাজ</h3>
+    <p>ফাউন্ডার এবং আইসিটি শিক্ষক</p>
+  </div>
+  <div class="teacher">
+    <h3>জনাব এমদাদুল হক এমাদ</h3>
+    <p>ইংরেজি শিক্ষক</p>
+  </div>
+  <div class="teacher">
+    <h3>জনাব সাকিব আহমদ</h3>
+    <p>হিসাববিজ্ঞান শিক্ষক</p>
+  </div>
+  <div class="teacher">
+    <h3>জনাব সাকিব আহমদ মারুফ</h3>
+    <p>গণিত শিক্ষক</p>
+  </div>
+  <div class="teacher">
+    <h3>জনাব আবিদ আহমদ</h3>
+    <p>রসায়ন শিক্ষক</p>
+  </div>
+  <div class="teacher">
+    <h3>জনাব ইমতিয়াজ আহমদ</h3>
+    <p>অফিস সহকারী</p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; ২০২৫ ক্রিয়েটিভ এডুকেশন</p>
+</footer>
+</body>
+</html>
